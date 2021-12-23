@@ -3,8 +3,8 @@ import { AttachFile, InsertEmoticon, Mic, More, Search } from '@material-ui/icon
 import { useParams } from 'react-router-dom';
 import React from 'react'
 import { useState } from 'react';
-import {useStateValue} from './StateProvider'
-import db from './firebase';
+import { useStateValue } from '../StateProvider/StateProvider';
+import db from '../FireBase/firebase';
 import firebase from 'firebase';
 
 const Chat = () => {

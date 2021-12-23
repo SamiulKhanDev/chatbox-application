@@ -1,12 +1,11 @@
 import React from 'react'
-import './sidebar.css'
-import db from './firebase'
+import '../Sidebar/Css/sidebar.css'
+import db from '../../FireBase/firebase'
 import { useState,useEffect } from 'react'
 import { Avatar } from '@material-ui/core'
-import { Chat, DonutLarge, MoreVert, SearchOutlined} from '@material-ui/icons'
-import { IconButton } from '@material-ui/core'
-import SidebarChat from './SidebarChat';
-import { useStateValue } from './StateProvider'
+import {SearchOutlined} from '@material-ui/icons'
+import SidebarChat from '../Sidebarchat/SidebarChat';
+import { useStateValue } from '../../StateProvider/StateProvider'
 
 const Sidebar = () => {
     const [{ user }, dispatch] = useStateValue();

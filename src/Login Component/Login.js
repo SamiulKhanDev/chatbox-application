@@ -1,10 +1,10 @@
 import React from 'react'
-import './login.css'
-import Image from "./snapchat_482451887_1.png"
+import './Css/login.css'
+import Image from "../Static/snapchat_482451887_1.png"
 import { Button } from '@material-ui/core'
-import { auth, provider } from './firebase'
-import { useStateValue } from './StateProvider'
-import { actionTypes } from './reducer'
+import { auth, provider } from '../FireBase/firebase'
+import { useStateValue } from '../StateProvider/StateProvider'
+import { actionTypes } from '../StateProvider/reducer'
 
 const Login = () => {
     const [{}, dispatch] = useStateValue();

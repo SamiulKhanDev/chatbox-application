@@ -1,6 +1,6 @@
 import React from 'react'
-import './sidebarchat.css'
-import db from './firebase'
+import '../Sidebarchat/Css/sidebarchat.css'
+import db from '../../FireBase/firebase'
 import { useState } from 'react'
 import { Avatar, IconButton, Snackbar } from '@material-ui/core'
 import { Delete, DnsTwoTone } from '@material-ui/icons'
